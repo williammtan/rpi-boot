@@ -51,7 +51,7 @@ Test the script
 ```bash
 /usr/local/bin/send-boot-email.sh
 ```
-## Setup processd
+## Setup systemd
 Edit the file `/etc/systemd/system/send-boot-email.service`:
 ```
 [Unit]
